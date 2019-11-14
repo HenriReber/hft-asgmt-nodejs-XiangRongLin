@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "start:debug": "nodemon --inspect index.js",
+    "start": "node index.js",
+    "start:debug": "node --inspect index.js",
     "test": "jest"
   },
   "author": "",
@@ -16,8 +16,10 @@
     }
   },
   "dependencies": {
-    "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.2",
+    "express": "^4.17.1",
+    "sqlite3": "^4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
